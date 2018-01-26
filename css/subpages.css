@@ -43,10 +43,20 @@ h6 {
     border-bottom: 2px solid #0ed8d6;
 }
 
+.select-container {
+    height: 24px;
+    width: 43%;
+    display: inline-block;
+    margin: 0 33px 10px 0;
+    border-bottom: 2px solid #0ed8d6;
+}
+
+
 .logo-button {
     margin: 0 200px 0 200px;
     height: 70px;
 }
+
 .navbar-brand {
     position: absolute;
 }
@@ -71,7 +81,8 @@ h6 {
     background: #fff;
 }
 
-#products-detailed .detail-product-image-container, .vertical {
+#products-detailed .detail-product-image-container,
+.vertical {
     height: 446px;
     overflow: hidden;
     border: 3px solid lightgray;
@@ -86,7 +97,8 @@ h6 {
     transition: .3s;
 }
 
-#products-detailed .detail-product-image, .item-vertical {
+#products-detailed .detail-product-image,
+.item-vertical {
     background-size: contain;
 }
 
@@ -125,10 +137,13 @@ h6 {
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 3em;
-  
+
 }
+
 /*Subpage General Style End*/
+
 /*Jumbole Role Style*/
+
 #detail-product-item-1-a {
     background-image: url(../img/jumbo-role/Tira300.jpg);
 }
@@ -187,10 +202,28 @@ h6 {
 
 /*Jumbo Role Style End*/
 
+/*Bulky Soft Style*/
+
+#detail-product-item-2-a {
+    background-image: url(../img/bulkysoft/Infinita4rotoli.jpg);
+}
+
+#detail-product-item-2-b {
+    background-image: url(../img/bulkysoft/Bulkysoft_pomaranczowa.jpg);
+}
+
+#detail-product-item-2-c {
+    background-image: url(../img/bulkysoft/Bulkysoft_bialagladka.jpg);
+}
+
+#detail-product-item-2-d {
+    background-image: url(../img/bulkysoft/Bulkysoft_bialaramka.jpg);
+}
+
+
+/*Bulky Soft Style End*/
 
 /*Ręczniki ZZ Style*/
-
-
 
 #detail-product-item-5-a {
     background-image: url(../img/zz/zz.jpg);
@@ -203,51 +236,16 @@ h6 {
 #detail-product-item-5-c {
     background-image: url(../img/zz/zz_bialy.jpg);
 }
+
 /*Ręczniki ZZ Style End*/
+
 #show-hide {
-    display:none;
+    display: none;
 }
 
 #show-hide .product-description p {
     font-size: 20px;
     text-align: justify;
 }
+
 /*Show hide*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
