@@ -1,0 +1,201 @@
+@media all and (max-width: 1025px) {
+
+    #products .single-product-item p {
+        font-size: 19px;
+    }
+
+    .count-container {
+        width: 90px;
+        height: 90px;
+    }
+
+    .wrapper {
+        height: 253px;
+    }
+    .count {
+        font-size: 38px;
+    }
+
+    .front-first p:nth-child(2) {
+        font-size: 17px;
+        left: 48%;
+    }
+
+    .front-second p {
+        font-size: 18px;
+        left: 46%;
+        top: 54%;
+    }
+
+    .front-third p {
+        font-size: 16px;
+        left: 46%;
+        top: 53%;
+    }
+
+    .back-first {
+        font-size: 14px;
+    }
+
+    .back-second {
+        font-size: 14px;
+    }
+
+    .back-third {
+        font-size: 16px;
+    }
+
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 14px;
+    }
+
+    #main-footer .company-footer p {
+        font-size: 14px;
+    }
+    .col-padding-right {
+        padding-right: 10%;
+    }
+
+    .col-padding-left {
+        padding-left: 11%;
+    }
+}
+
+
+@media all and (min-width: 1026px) and (max-width: 1281px) {
+
+    .count-container {
+        width: 90px;
+        height: 90px;
+    }
+
+    .count {
+        font-size: 38px;
+    }
+
+    .wrapper {
+        width: 99%;
+    }
+    .front-first p:nth-child(2) {
+        font-size: 24px;
+        left: 43%;
+    }
+
+    .front-second p {
+        font-size: 23px;
+        left: 40%;
+        top: 54%;
+    }
+
+    .front-third p {
+        font-size: 22px;
+        left: 42%;
+        top: 54%;
+    }
+
+    .back-first {
+        font-size: 16px;
+    }
+
+    .back-second {
+        font-size: 16px;
+    }
+
+    .back-third {
+        font-size: 16px;
+    }
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 14px;
+    }
+    .col-padding-right {
+        padding-right: 9%;
+    }
+
+    .col-padding-left {
+        padding-left: 10%;
+    }
+}
+
+@media all and (min-width: 1282px) and (max-width: 1367px) {
+
+    .count-container {
+        width: 90px;
+        height: 90px;
+    }
+
+    .count {
+        font-size: 38px;
+    }
+
+    .wrapper {
+        width: 99%;
+    }
+    .front-first p:nth-child(2) {
+        font-size: 27px;
+        /*left: 43%;*/
+    }
+
+    .front-second p {
+        font-size: 26px;
+        left: 26%;
+        top: 54%;
+    }
+
+    .front-third p {
+        font-size: 26px;
+        left: 30%;
+        top: 54%;
+    }
+
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 15px;
+    }
+    .col-padding-right {
+        padding-right: 6%;
+    }
+
+    .col-padding-left {
+        padding-left: 7%;
+    }
+    .form-width {
+        margin-right: 24%;
+        margin-left: 6%;
+    }
+}
+
+
+
+@media all and (min-width: 1368px) and (max-width: 1441px) {
+
+    .front-first p:nth-child(2) {
+        left: 38%;
+    }
+
+    .front-second p {
+        left: 35%;
+    }
+
+    .front-third p {
+        left: 36%;
+    }
+
+    .form-width {
+        margin-right: 20%;
+        margin-left: 9%;
+    }
+
+    .col-padding-left {
+        padding-left: 58px;
+    }
+
+    .col-padding-right {
+        padding-left: 18px;
+    }
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 15px;
+    }
+}
