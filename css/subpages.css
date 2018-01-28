@@ -27,7 +27,7 @@ h6 {
 }
 
 .main-paragraph {
-    font-size: 30px;
+    font-size: 29px;
     margin: 0 0 4px 0;
 }
 
@@ -49,8 +49,29 @@ h6 {
     display: inline-block;
     margin: 0 33px 10px 0;
     border-bottom: 2px solid #0ed8d6;
+    position: relative;
+    top: 18px;
 }
 
+.select-container select {
+    font-family: 'Lato', sans-serif;
+    color: #000;
+    background-color: rgb(247, 247, 247);
+    border: none;
+    font-size: 19px;
+    width: 33%;
+    position: absolute;
+    /* bottom: 0%; */
+    text-align: center;
+    right: 31%;
+    bottom: 20%;
+}
+
+.select-container-EAN select {
+    font-size: 17px;
+    width: 101%;
+    right: 0;
+}
 
 .logo-button {
     margin: 0 200px 0 200px;
@@ -75,32 +96,23 @@ h6 {
 
 
 #products-detailed .detail-product-image-container {
-    height: 300px;
+    height: 446px;
     overflow: hidden;
     border: 3px solid lightgray;
     background: #fff;
 }
 
-#products-detailed .detail-product-image-container,
-.vertical {
-    height: 446px;
-    overflow: hidden;
-    border: 3px solid lightgray;
-}
+
 
 #products-detailed .detail-product-image {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: 100%;
     position: relative;
     transition: .3s;
 }
 
-#products-detailed .detail-product-image,
-.item-vertical {
-    background-size: contain;
-}
 
 #products-detailed .detail-product-image:hover {
     transform: scale(1.2);
@@ -113,7 +125,6 @@ h6 {
     position: absolute;
     left: 0;
 }
-
 
 #products-detailed .detail-single-product-item .detail-product-image .detail-product-image-mask {
     background-color: rgba(42, 61, 79, 0.8);
@@ -137,7 +148,6 @@ h6 {
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 3em;
-
 }
 
 /*Subpage General Style End*/
@@ -239,6 +249,195 @@ h6 {
 
 /*Ręczniki ZZ Style End*/
 
+
+/*Papiery toaletowe Style*/
+#detail-product-item-3-a {
+    background-image: url(../img/papiery-toaletowe/comfort4.jpg);
+}
+
+#detail-product-item-3-b {
+    background-image: url(../img/papiery-toaletowe/comfort_8.jpg);
+}
+
+#detail-product-item-3-c {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_EXCLUSIVE_8.jpg);
+}
+
+#detail-product-item-3-d {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_EXCLUSIVE_HERBAL_8.jpg);
+}
+
+#detail-product-item-3-e {
+    background-image: url(../img/papiery-toaletowe/HARMASAN_69_m.jpg);
+}
+
+#detail-product-item-3-f {
+    background-image: url(../img/papiery-toaletowe/HARMASAN_4.jpg);
+}
+
+#detail-product-item-3-g {
+    background-image: url(../img/papiery-toaletowe/HARMASAN_10.jpg);
+}
+
+#detail-product-item-3-h {
+    background-image: url(../img/papiery-toaletowe/pap_Satinelle4.jpg);
+}
+
+#detail-product-item-3-i {
+    background-image: url(../img/papiery-toaletowe/pap_Satinelle8.jpg);
+}
+
+#detail-product-item-3-j {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_SOFT_4.jpg);
+}
+
+#detail-product-item-3-k {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_SOFT_FLORA_8.jpg);
+}
+
+#detail-product-item-3-l {
+    background-image: url(../img/papiery-toaletowe/HARMONY_TOPA_SOFT_8.jpg);
+}
+
+#detail-product-item-3-m {
+    background-image: url(../img/papiery-toaletowe/comfort16.jpg);
+}
+
+
+/*Papiery toaletowe Style End*/
+
+/*Ręczniki papierowe Style*/
+#detail-product-item-4-a {
+    background-image: url(../img/reczniki-papierowe/recz_Satinelle.jpg);
+}
+
+#detail-product-item-4-b {
+    background-image: url(../img/reczniki-papierowe/recz_ForYou.jpg);
+}
+
+#detail-product-item-4-c {
+    background-image: url(../img/reczniki-papierowe/harmony_natural.jpg);
+}
+
+#detail-product-item-4-d {
+    background-image: url(../img/reczniki-papierowe/HARMONY_UTIERKY_ABSORBENT_PRAKTIK.jpg);
+}
+
+#detail-product-item-4-e {
+    background-image: url(../img/reczniki-papierowe/HARMONY_UTIERKY_ABSORBENT_PRAKTIK_XL.jpg);
+}
+
+#detail-product-item-4-f {
+    background-image: url(../img/reczniki-papierowe/HARMONY_UTIERKY_ULTRA_ABSORBENT.jpg);
+}
+
+#detail-product-item-4-g {
+    background-image: url(../img/reczniki-papierowe/HARMONY_UTIERKY_ABSORBENT_PRAKTIK_XXL.jpg);
+}
+
+/*Ręczniki papierowe Style End*/
+/*Chusteczki higieniczne Style*/
+#detail-product-item-6-a {
+    background-image: url(../img/chusteczki-higieniczne/ch_Satinelle.jpg);
+}
+
+#detail-product-item-6-b {
+    background-image: url(../img/chusteczki-higieniczne/ch_ForYou.jpg);
+}
+
+#detail-product-item-6-c {
+    background-image: url(../img/chusteczki-higieniczne/PRIMA.jpg);
+}
+
+#detail-product-item-6-d {
+    background-image: url(../img/chusteczki-higieniczne/LADIES.jpg);
+}
+
+#detail-product-item-6-e {
+    background-image: url(../img/chusteczki-higieniczne/GENTLEMAN.jpg);
+}
+
+#detail-product-item-6-f {
+    background-image: url(../img/chusteczki-higieniczne/PREMIUM.jpg);
+}
+
+#detail-product-item-6-g {
+    background-image: url(../img/chusteczki-higieniczne/uniwersalne.jpg);
+}
+
+
+/*Chusteczki higieniczne Style End*/
+/*Chusteczki nawilżane Style*/
+#detail-product-item-7-a {
+    background-image: url(../img/chusteczki-nawilzane/Liola_a_15_uniwersalne.jpg);
+}
+
+#detail-product-item-7-b {
+    background-image: url(../img/chusteczki-nawilzane/Liola_a_15_uniwersalne.jpg);
+}
+
+#detail-product-item-7-c {
+    background-image: url(../img/chusteczki-nawilzane/freshmaker_intimate.jpg);
+}
+
+#detail-product-item-7-d {
+    background-image: url(../img/chusteczki-nawilzane/freshamker_makeup.jpg);
+}
+
+#detail-product-item-7-e {
+    background-image: url(../img/chusteczki-nawilzane/nemdil_kids_a_40.jpg);
+}
+
+#detail-product-item-7-f {
+    background-image: url(../img/chusteczki-nawilzane/freshmaker_kids_a_60.jpg);
+}
+
+#detail-product-item-7-g {
+    background-image: url(../img/chusteczki-nawilzane/nawil_Freshmaker60klips.jpg);
+}
+
+#detail-product-item-7-h {
+    background-image: url(../img/chusteczki-nawilzane/nemdil_kids_a_72.jpg);
+}
+
+#detail-product-item-7-i {
+    background-image: url(../img/chusteczki-nawilzane/liola_72_a_.jpg);
+}
+
+#detail-product-item-7-j {
+    background-image: url(../img/chusteczki-nawilzane/72_NEMDIL_3D.jpg);
+}
+
+#detail-product-item-7-k {
+    background-image: url(../img/chusteczki-nawilzane/nawil_Freshmaker72.jpg);
+}
+
+#detail-product-item-7-l {
+    background-image: url(../img/chusteczki-nawilzane/nawil_Nemdil_DeLuxe.jpg);
+}
+
+#detail-product-item-7-m {
+    background-image: url(../img/chusteczki-nawilzane/freshmaker_a_100_rose.jpg);
+}
+
+#detail-product-item-7-n {
+    background-image: url(../img/chusteczki-nawilzane/FrashmakerCaomile100pcskopya.jpg);
+}
+
+#detail-product-item-7-o {
+    background-image: url(../img/chusteczki-nawilzane/Nemdil120pcskopya.jpg);
+}
+
+#detail-product-item-7-u {
+    background-image: url(../img/chusteczki-nawilzane/nawil_Freshmaker120.jpg);
+}
+
+#detail-product-item-7-p {
+    background-image: url(../img/chusteczki-nawilzane/Liola_a_120_lawenda.jpg);
+}
+
+/*Chusteczki nawilżane Style End*/
+/*Show hide*/
 #show-hide {
     display: none;
 }
@@ -247,5 +446,3 @@ h6 {
     font-size: 20px;
     text-align: justify;
 }
-
-/*Show hide*/
