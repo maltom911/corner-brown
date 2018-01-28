@@ -437,6 +437,60 @@ h6 {
 }
 
 /*Chusteczki nawilżane Style End*/
+
+/*Serwetki gastronomiczne Style*/
+#detail-product-item-8-a {
+    background-image: url(../img/serwetki-gastronomiczne/gastro_400.jpg);
+}
+
+#detail-product-item-8-b {
+    background-image: url(../img/serwetki-gastronomiczne/gastro_250.jpg);
+}
+
+#detail-product-item-8-c {
+    background-image: url(../img/serwetki-gastronomiczne/gastro_a_500_1_8.jpg);
+}
+
+#detail-product-item-8-d {
+    background-image: url(../img/serwetki-gastronomiczne/Edelweiss_biale_15x15.jpg);
+}
+
+#detail-product-item-8-e {
+    background-image: url(../img/serwetki-gastronomiczne/Edelweiss_gladkie_15x15.jpg);
+}
+
+#detail-product-item-8-f {
+    background-image: url(../img/serwetki-gastronomiczne/Edelweiss_17x17.jpg);
+}
+/*Serwetki gastronomiczne Style End*/
+
+/*Serwetki stołowe Style*/
+#detail-product-item-9-a{
+    background-image: url(../img/serwetki-stolowe/serwetki_stolowe.jpg);
+}
+/*Serwetki stołowe Style End*/
+
+/*Ściereczki domowe Style*/
+#detail-product-item-10-a{
+    background-image: url(../img/sciereczki-domowe/sciereczki.jpg);
+}
+/*Ściereczki domowe Style End*/
+
+/*Balony Style*/
+#detail-product-item-11-a{
+    background-image: url(../img/balony/balony.jpg);
+}
+
+#detail-product-item-11-b{
+    background-image: url(../img/balony/balony_pastelowe.jpg);
+}
+
+#detail-product-item-11-c{
+    background-image: url(../img/balony/balony_metalizowane.jpg);
+}
+/*Balony Style End*/
+
+
 /*Show hide*/
 #show-hide {
     display: none;
