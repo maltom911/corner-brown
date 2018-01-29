@@ -67,6 +67,11 @@ h6 {
     bottom: 20%;
 }
 
+.select-container .red {
+    width: 49%;
+}
+
+
 .select-container-EAN select {
     font-size: 17px;
     width: 101%;
@@ -219,7 +224,7 @@ h6 {
 }
 
 #detail-product-item-2-b {
-    background-image: url(../img/bulkysoft/Bulkysoft_pomaranczowa.jpg);
+    background-image: url(../img/bulkysoft/Bulky_soft_czerwona.jpg);
 }
 
 #detail-product-item-2-c {
