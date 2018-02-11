@@ -35,6 +35,10 @@ h6 {
     margin-top: 4%;
 }
 
+.choose {
+    display:inline-block;
+}
+
 .paragraph-features p {
     font-size: 20px;
     display: inline-block;
@@ -149,10 +153,12 @@ h6 {
 #products-detailed .detail-single-product-item .detail-product-image .detail-product-image-mask .fa {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateY(-50%);
     color: #fff;
     font-size: 3em;
+    margin: auto;
+    left: 0;
+    right: 0;
 }
 
 /*Subpage General Style End*/
@@ -223,8 +229,28 @@ h6 {
     background-image: url(../img/bulkysoft/Infinita4rotoli.jpg);
 }
 
-#detail-product-item-2-b {
+#detail-product-item-2-b-0 {
     background-image: url(../img/bulkysoft/Bulky_soft_czerwona.jpg);
+}
+
+#detail-product-item-2-b-1 {
+    background-image: url(../img/bulkysoft/Bulky_soft_pomaranczowa.jpg);
+}
+
+#detail-product-item-2-b-2 {
+    background-image: url(../img/bulkysoft/Bulky_soft_zolta.jpg);
+}
+
+#detail-product-item-2-b-3 {
+    background-image: url(../img/bulkysoft/Bulky_soft_bordo.jpg);
+}
+
+#detail-product-item-2-b-4 {
+    background-image: url(../img/bulkysoft/Bulky_soft_nieb.jpg);
+}
+
+#detail-product-item-2-b-5 {
+    background-image: url(../img/bulkysoft/Bulky_soft_ziel.jpg);
 }
 
 #detail-product-item-2-c {

@@ -16,23 +16,19 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat', sans-serif;
-    color: #333;
     font-size: 40px;
+
 }
 
 section {
-    padding-top: 60px;
-    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-bottom: 90px;
 }
 
-section-header {
-    margin-bottom: 70px;
-}
 
 section .section-heading {
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 .social-icons a {
@@ -54,24 +50,20 @@ section .section-heading {
 
 .btn-default {
     background-color: white;
-    border: 1px solid black;
-    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: black;
     transition: all .3s;
+    font-weight: 700;
 
 }
 
 a.btn-default:hover,
 .btn-default:hover {
-    background-color: #fff;
-    border: 1px solid lightgray;
+    background-color: lightgrey;
+
 }
-.btn-default.focus, .btn-default:focus {
-    color: #333;
-    background-color: white;
-    border-color: black;
-}
+
+
 /* General Styles End */
 
 /* Main Menu Styles */
@@ -94,32 +86,21 @@ a.btn-default:hover,
 
 #main-nav a {
     font-size: 20px;
+    font-weight: 900;
     color: white;
     text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
     transition: all .3s;
 }
 
 .navbar-brand > img {
     display: block;
-    height: 50px;
+    height: 70px;
 }
 
 #main-nav a:hover {
     color: lightgray;
 }
 
-/*#main-nav.scroll {
-	background-color: rgba(14, 216, 214, 0.85);
-}*/
-
-#main-nav.scroll a {
-    color: #fff;
-}
-
-#main-nav.scroll a:hover {
-    color: #777777;
-}
 
 #main-nav .container {
     height: 100%;
@@ -135,15 +116,15 @@ a.btn-default:hover,
 
 #main-header {
     height: 100vh;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url(../img/header/wersja-brown/benjamin-child-17946.jpg);
- /*   background-image: url(../img/header/wersja-brown/benjamin-child-17946.jpg);*/
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(../img/header/wersja-brown/benjamin-child-17946.jpg);
+    /*   background-image: url(../img/header/wersja-brown/benjamin-child-17946.jpg);*/
     background-size: cover;
     position: relative;
     background-attachment: fixed;
     background-position: center;
-    -webkit-box-shadow: 0px 0px 35px 4px rgba(0, 0, 0, 0.75);
+    /* -webkit-box-shadow: 0px 0px 35px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 35px 4px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 35px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 35px 4px rgba(0, 0, 0, 0.75);*/
 }
 
 
@@ -164,7 +145,7 @@ h1 {
 
 #main-header .header-caption h1 {
     color: #fff;
-    margin: 45px 0;
+    font-weight: 700;
 }
 
 #main-header .header-caption h2 {
@@ -180,10 +161,9 @@ h1 {
     top: 140%;
     position: absolute;
     bottom: 50px;
-    left: 50%;
+    left: 48.4%;
     width: 50px;
     height: 50px;
-    margin-left: -15px;
     border-left: 4px solid white;
     border-bottom: 4px solid white;
     -webkit-transform: rotate(-45deg);
@@ -225,13 +205,26 @@ h1 {
 }
 
 .wrapper {
-    width: 86%;
+    width: 100%;
     position: relative;
-    margin: 0 auto;
-    height: 275px;
+    margin: 0;
+    height: 245px;
     -webkit-perspective: 600px;
     -moz-perspective: 600px;
     overflow: hidden;
+}
+
+.wrapper-first {
+    margin-left: 18%;
+}
+
+.wrapper-second {
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.wrapper-third {
+    margin-right: 18%;
 }
 
 .box-1 {
@@ -241,12 +234,11 @@ h1 {
 .box-2 {
     background-color: rgba(211, 211, 211, 0.4);
     text-align: justify;
-    margin: 5px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .back-first {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .first-style {
@@ -254,11 +246,11 @@ h1 {
 }
 
 .back-second {
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .back-third {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .third-style {
@@ -266,19 +258,21 @@ h1 {
 }
 
 .box-1 {
-    border-top-right-radius: 2%;
+    border-radius: 2%;
+    /* border-top-right-radius: 2%;
     border-top-left-radius: 2%;
     border-bottom-left-radius: 17%;
-    border-bottom-right-radius: 17%;
-    border-bottom: 15px solid black;
+    border-bottom-right-radius: 17%;*/
+    /* border-bottom: 1px solid black;*/
 }
 
 .box-2 {
-    border-top-right-radius: 2%;
+    border-radius: 2%;
+    /*   border-top-right-radius: 2%;
     border-top-left-radius: 2%;
     border-bottom-left-radius: 29%;
     border-bottom-right-radius: 17%;
-    border-bottom: 15px solid black;
+    border-bottom: 15px solid black;*/
 }
 
 .box-1,
@@ -339,50 +333,49 @@ h1 {
 }
 
 .front-first p:nth-child(2) {
-    font-size: 30px;
+    font-size: 26px;
     position: absolute;
-    top: 49%;
+    top: 48%;
     transform: translateY(-50%);
-    left: 36%;
+    left: 38%;
     margin: 0;
 }
 
-.front .learn-more {
+/*.front .learn-more {
     font-size: 15px;
     position: absolute;
     top: 80%;
     left: 9%;
     margin: 0;
-    text-decoration: underline;
 }
 
 .front .learn-more-sec-th {
     top:83%;
-}
+}*/
+
 .front-second p {
-    font-size: 30px;
+    font-size: 25px;
     position: absolute;
-    top: 55%;
+    top: 54%;
     transform: translateY(-50%);
     left: 28%;
     margin: 0;
 }
 
 .front-third p {
-    font-size: 28px;
+    font-size: 25px;
     position: absolute;
-    top: 55%;
+    top: 54%;
     transform: translateY(-50%);
-    left: 28%;
+    left: 30%;
     margin: 0;
 }
 
 /*Counting number*/
 
 .count-container {
-    width: 100px;
-    height: 100px;
-    background: black;
+    width: 90px;
+    height: 90px;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
@@ -391,11 +384,42 @@ h1 {
     top: 46%;
     transform: translateY(-50%);
     left: 10%;
+    color: white;
+    background-color: #333;
 }
 
+/*.count-1 {
+    background: #bae1ff;
+    color: deepskyblue;
+}
+
+.count-2 {
+   background: #ffdfba;
+    color: orange;
+}
+
+.count-3 {
+    color: hotpink;
+    background: pink;
+}
+
+.front-first, .back-first {
+    border: 1px solid deepskyblue;
+    background-color: aliceblue;
+}
+
+.front-second, .back-second {
+    border: 1px solid orange;
+    background-color: lightgoldenrodyellow;
+}
+
+.front-third, .back-third {
+    border: 1px solid hotpink;
+    background: rgba(255,182,193, 0.5);
+}*/
+
 .count {
-    color: white;
-    font-size: 44px;
+    font-size: 37px;
     position: absolute;
     top: 51%;
     left: 50%;
@@ -414,9 +438,13 @@ h1 {
     background-color: rgb(247, 247, 247);
 }
 
+#products h4 {
+    margin-bottom: 5px;
+}
 
 .section-description {
-    font-size: 20px;
+    font-size: 18px;
+    font-family: 'Droid Serif', sans-serif;
 }
 
 .col-md-3 {
@@ -427,7 +455,7 @@ h1 {
 
 #products .single-product-item {
     background: #fff;
-    
+
 }
 
 #products .single-product-item p {
@@ -538,8 +566,8 @@ h1 {
 }
 
 #product-item-12 {
-    background-image: url(../img/products/shopping-cart.png);
-    background-size: cover;
+    background-image: url(../img/products/discount.png);
+    background-size: 52% 60%;
 }
 
 
@@ -558,7 +586,7 @@ h1 {
     background-image: url(../img/footer/wersja-brown/mike-tinnion-327565.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
     height: 100vh;
 }
 
@@ -569,6 +597,7 @@ h1 {
 .col-padding-left {
     padding-left: 18px;
 }
+
 .contact-general-numbers,
 .contact-specified-numbers {
     text-align: left;
@@ -585,7 +614,8 @@ h1 {
     width: 100%;
     border: 0px solid;
 }
-.form-width{
+
+.form-width {
     margin-right: 20%;
     margin-left: 9%;
 }
@@ -593,16 +623,11 @@ h1 {
 #contact input,
 #contact textarea {
     padding: 15px;
-    font-family: 'Montserrat', sans-serif;
     border-radius: 5px;
 }
 
 #contact input:not(:last-child) {
     margin-bottom: 30px;
-}
-
-#contact input[type="submit"] {
-    margin-top: 30px;
 }
 
 .form-control {
@@ -613,7 +638,7 @@ textarea.form-control {
     height: 120px;
 }
 
-.form-group button {
+.form-group .btn-send {
     width: 100%;
 }
 
@@ -623,10 +648,11 @@ textarea.form-control {
 #contact :-moz-placeholder {
     color: #777;
 }
+
 /*Section map*/
 
 #map-section {
-  background-color: rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
 }
 
 .map-contact-position {
@@ -636,6 +662,7 @@ textarea.form-control {
 .contact-company {
     font-size: 26px;
     margin-top: 100px;
+    font-weight: 400;
 }
 
 
@@ -646,6 +673,7 @@ textarea.form-control {
     height: 400px;
     width: 100%;
 }
+
 /*Section map end*/
 
 /* Section Contact End */
@@ -666,9 +694,11 @@ textarea.form-control {
     font-size: 15px;
 }
 
-.contact-company {
-    font-weight: 700;
+.website-counter {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
 }
 
-/* Footer End*/
 
+/* Footer End*/
