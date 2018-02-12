@@ -94,7 +94,7 @@ a.btn-default:hover,
 
 .navbar-brand > img {
     display: block;
-    height: 70px;
+    height: 60px;
 }
 
 #main-nav a:hover {
@@ -341,18 +341,6 @@ h1 {
     margin: 0;
 }
 
-/*.front .learn-more {
-    font-size: 15px;
-    position: absolute;
-    top: 80%;
-    left: 9%;
-    margin: 0;
-}
-
-.front .learn-more-sec-th {
-    top:83%;
-}*/
-
 .front-second p {
     font-size: 25px;
     position: absolute;
@@ -584,10 +572,8 @@ h1 {
 
 #contact {
     background-image: url(../img/footer/wersja-brown/mike-tinnion-327565.jpg);
-    background-size: cover;
+    background-size: cover;;
     background-repeat: no-repeat;
-
-    height: 100vh;
 }
 
 #contact h5 {
@@ -595,7 +581,7 @@ h1 {
 }
 
 .col-padding-left {
-    padding-left: 18px;
+    padding-left: 30px;
 }
 
 .contact-general-numbers,

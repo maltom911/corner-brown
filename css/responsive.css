@@ -1,109 +1,113 @@
 @media all and (max-width: 1025px) {
 
+    .navbar-brand > img {
+        height: 45px;
+    }
+
+    .count-container {
+        width: 75px;
+        height: 75px;
+    }
+
+    .count {
+        font-size: 30px;
+    }
+
+    #products .single-product-item .product-image {
+        background-position: contain;
+    }
+
     #products .single-product-item p {
         font-size: 19px;
     }
 
-    .count-container {
-        width: 90px;
-        height: 90px;
-    }
-
-    .wrapper {
-        height: 253px;
-    }
-    .count {
-        font-size: 38px;
-    }
-
     .front-first p:nth-child(2) {
-        font-size: 17px;
-        left: 48%;
+        font-size: 16px;
+        left: 46%;
     }
 
     .front-second p {
-        font-size: 18px;
-        left: 46%;
-        top: 54%;
+        font-size: 16px;
+        left: 43%;
+        top: 53%;
     }
 
     .front-third p {
         font-size: 16px;
-        left: 46%;
+        left: 43%;
         top: 53%;
     }
 
-    .back-first {
-        font-size: 14px;
-    }
-
-    .back-second {
-        font-size: 14px;
-    }
-
+    .back-first,
+    .back-second,
     .back-third {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .contact-general-numbers,
     .contact-specified-numbers {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     #main-footer .company-footer p {
         font-size: 14px;
     }
-    .col-padding-right {
-        padding-right: 10%;
-    }
 
     .col-padding-left {
-        padding-left: 11%;
+        padding-left: 13%;
+    }
+
+    .contact-company {
+        font-size: 20px;
+    }
+    
+    iframe {
+        width: 500px;
+        height: 350px;
+    }
+    .main-paragraph {
+        font-size: 22px;
+
+    }
+
+    .paragraph-features p {
+        font-size: 18px;
+        width: 41%;
     }
 }
 
 
 @media all and (min-width: 1026px) and (max-width: 1281px) {
 
-    .count-container {
-        width: 90px;
-        height: 90px;
+    .navbar-brand > img {
+        height: 50px;
     }
 
-    .count {
-        font-size: 38px;
-    }
-
-    .wrapper {
-        width: 99%;
-    }
     .front-first p:nth-child(2) {
-        font-size: 24px;
+        font-size: 21px;
         left: 43%;
     }
 
     .front-second p {
-        font-size: 23px;
-        left: 40%;
+        font-size: 21px;
+        left: 39%;
         top: 54%;
     }
 
     .front-third p {
-        font-size: 22px;
-        left: 42%;
+        font-size: 21px;
+        left: 40%;
         top: 54%;
     }
 
-    .back-first {
-        font-size: 16px;
-    }
-
-    .back-second {
-        font-size: 16px;
-    }
-
+    .back-first,
+    .back-second,
     .back-third {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    #product-item-12 {
+        background-size: 60% 60%;
     }
     .contact-general-numbers,
     .contact-specified-numbers {
@@ -120,33 +124,40 @@
 
 @media all and (min-width: 1282px) and (max-width: 1367px) {
 
+    .navbar-brand > img {
+        height: 55px;
+    }
+
     .count-container {
-        width: 90px;
-        height: 90px;
+        width: 85px;
+        height: 85px;
     }
 
     .count {
-        font-size: 38px;
+        font-size: 30px;
     }
 
-    .wrapper {
-        width: 99%;
-    }
     .front-first p:nth-child(2) {
-        font-size: 27px;
-        /*left: 43%;*/
+        font-size: 22px;
+        left: 43%;
     }
 
     .front-second p {
-        font-size: 26px;
+        font-size: 22px;
         left: 26%;
         top: 54%;
     }
 
     .front-third p {
-        font-size: 26px;
+        font-size: 22px;
         left: 30%;
         top: 54%;
+    }
+
+    .back-first,
+    .back-second,
+    .back-third {
+        font-size: 14px;
     }
 
     .contact-general-numbers,
@@ -170,18 +181,6 @@
 
 @media all and (min-width: 1368px) and (max-width: 1441px) {
 
-    .front-first p:nth-child(2) {
-        left: 38%;
-    }
-
-    .front-second p {
-        left: 35%;
-    }
-
-    .front-third p {
-        left: 36%;
-    }
-
     .form-width {
         margin-right: 20%;
         margin-left: 9%;
@@ -197,5 +196,13 @@
     .contact-general-numbers,
     .contact-specified-numbers {
         font-size: 15px;
+    }
+}
+
+@media all and (min-width: 1442px) and (max-width: 1601px) {
+
+    .front-second p {
+        font-size: 26px;
+        top: 56%;
     }
 }
