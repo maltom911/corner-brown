@@ -60,7 +60,7 @@
     .contact-company {
         font-size: 20px;
     }
-    
+
     iframe {
         width: 500px;
         height: 350px;
@@ -205,4 +205,60 @@
         font-size: 26px;
         top: 56%;
     }
+}
+
+@media all and (min-width: 1602px) {
+
+    .front-first p:nth-child(2) {
+        font-size: 24px;
+        left: 33%;
+    }
+
+    .front-second p {
+        font-size: 24px;
+        left: 33%;
+        top: 49%;
+    }
+
+    .front-third p {
+        font-size: 24px;
+        left: 32%;
+        top: 49%;
+    }
+  
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 18px;
+    }
+    .col-padding-right {
+        padding-right: 15%;
+        padding-top: 6%;
+    }
+
+    .col-padding-left {
+        padding-right: 5%;
+        padding-top: 6%;
+    }
+
+    .form-width {
+        margin-right: 3%;
+        margin-left: 2%;
+    }
+    
+    .container-width {
+        width: 80%;
+    }
+}
+
+@media all and (min-width: 2200px) {
+
+    .col-padding-left, .col-padding-right {
+        padding-top: 9%;
+    }
+    .container-width {
+        width: 80%;
+    }
+    
+}
+
 }

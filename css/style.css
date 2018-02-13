@@ -572,8 +572,9 @@ h1 {
 
 #contact {
     background-image: url(../img/footer/wersja-brown/mike-tinnion-327565.jpg);
-    background-size: cover;;
+    background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
 #contact h5 {
