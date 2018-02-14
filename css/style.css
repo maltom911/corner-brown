@@ -515,8 +515,8 @@ h1 {
 }
 
 #product-item-12 {
-    background-image: url(../img/products/discount.png);
-    background-size: 52% 60%;
+    background-image: url(../img/products/Promocja.jpg);
+    background-size: contain;
 }
 
 
