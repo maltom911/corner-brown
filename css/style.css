@@ -110,6 +110,15 @@ a.btn-default:hover,
     padding-top: 44px;
 }
 
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+.navbar-collapse {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 /* Main Menu Styles End */
 
 /* Main Header Styles */

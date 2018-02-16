@@ -266,10 +266,11 @@
 }
 
 
-@media all and (max-width: 768px)
-/*and (max-width: 1023px)*/
+@media all and (max-width: 768px) {
 
-    {
+    .scroll-down span {
+        left: 47%;
+    }
 
     #contact {
         background-position: 86%;
@@ -298,17 +299,99 @@
         padding-right: 11%;
         padding-left: 11%;
     }
-        
+
 
     .front-second p {
-      top: 48%;
+        top: 48%;
         left: 35%;
     }
 
     .front-third p {
-       top: 48%;
+        top: 48%;
         left: 35%;
     }
 
-    /*dodane*/
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 13px;
+    }
+
+    .form-control {
+        height: 37px;
+    }
+
+}
+
+@media all and (min-width: 360px) {
+    
+    /*header*/
+    .navbar-brand > img {
+        height: 45px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+    #main-header .header-caption h2 {
+        font-size: 1.8em;
+    }
+
+    .button-size {
+        font-size: 14px;
+    }
+    .scroll-down .two {
+        top: 115%;
+    }
+    .scroll-down span {
+        top: 110%;
+        left: 43.6%;
+    }
+    #main-nav a {
+        font-size: 13px;
+    }
+    
+    .navbar-nav > li > a {
+        padding-top: 0px;
+    }
+    
+    /*About us*/
+    .wrapper {
+        height: 160px;
+    }
+    
+        .count-container {
+        width: 75px;
+        height: 75px;
+    }
+
+    .count {
+        font-size: 30px;
+    }
+
+    .front-first p:nth-child(2) {
+        font-size: 16px;
+        left: 46%;
+    }
+
+    .front-second p {
+        font-size: 16px;
+        left: 43%;
+        top: 53%;
+    }
+
+    .front-third p {
+        font-size: 16px;
+        left: 43%;
+        top: 53%;
+    }
+
+    .back-first,
+    .back-second,
+    .back-third {
+        font-size: 10px;
+    }
+    
+    #about {
+            padding-bottom: 30px;
+    }
 }
