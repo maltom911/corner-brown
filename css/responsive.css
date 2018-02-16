@@ -275,6 +275,7 @@
     #contact {
         background-position: 86%;
     }
+    
     .container-padding {
         padding-right: 2%;
         padding-left: 2%;
@@ -322,8 +323,9 @@
 
 }
 
-@media all and (min-width: 360px) {
-    
+
+@media all and (max-width: 767px) {
+
     /*header*/
     .navbar-brand > img {
         height: 45px;
@@ -349,17 +351,17 @@
     #main-nav a {
         font-size: 13px;
     }
-    
+
     .navbar-nav > li > a {
         padding-top: 0px;
     }
-    
+
     /*About us*/
     .wrapper {
         height: 160px;
     }
-    
-        .count-container {
+
+    .count-container {
         width: 75px;
         height: 75px;
     }
@@ -390,8 +392,73 @@
     .back-third {
         font-size: 10px;
     }
-    
+
     #about {
-            padding-bottom: 30px;
+        padding-bottom: 30px;
     }
+
+    .container-padding .col-md-4 {
+        padding-bottom: 5%;
+    }
+
+    .section-description {
+        font-size: 12px;
+    }
+
+    /*Contact*/
+    #contact h5 {
+        color: ghostwhite;
+        font-size: 28px;
+    }
+    #contact {
+        background-position: 79%;
+    }
+    .contact-general-numbers,
+    .contact-specified-numbers {
+        font-size: 11px;
+        line-height: 8px;
+    }
+
+    .form-group {
+        margin-bottom: 3px;
+    }
+
+    #contact input:not(:last-child) {
+        height: 33px;
+    }
+
+    .col-padding-right {
+        padding-top: 4%;
+    }
+
+
+    /*Map*/
+    #map-section {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+
+    #map-section h6 {
+        margin-bottom: 10px;
+    }
+    /*Footer*/
+    .contact-company {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+    #main-footer .company-footer p {
+        line-height: 10px;
+        font-size: 8px;
+
+    }
+
+    #main-footer .company-footer p:not(:first-child) {
+        display: none;
+
+    }
+
+    .website-counter {
+        top: 0;
+    }
+
 }
