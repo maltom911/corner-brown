@@ -449,12 +449,10 @@
     #main-footer .company-footer p {
         line-height: 10px;
         font-size: 8px;
-
     }
 
     #main-footer .company-footer p:not(:first-child) {
         display: none;
-
     }
 
     .website-counter {
@@ -462,3 +460,5 @@
     }
 
 }
+
+

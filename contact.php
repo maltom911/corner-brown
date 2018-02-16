@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'malski.tomasz@gmail.com';
+$from = 'mariusz.szatko@corner.com.pl';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'malski.tomasz@gmail.com';
+$sendTo = 'mariusz.szatko@corner.com.pl';
 
 // subject of the email
 $subject = 'New message from contact form';
@@ -45,9 +45,9 @@ try
     
     if (isset($department)) {
         if ($department == "1") {
-            $sendTo = "mtomez@poczta.fm";
+            $sendTo = "mariusz.szatko@corner.com.pl";
         } elseif ($department == "2") {
-            $sendTo = "malski.tomasz@gmail.com";
+            $sendTo = "katarzyna.malik@corner.com.pl";
         }
     }
 
