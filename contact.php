@@ -4,23 +4,23 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = '<malski.tomasz@gmail.com>';
+$from = 'malski.tomasz@gmail.com';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'malski.tomasz@gmail.com>';
+$sendTo = 'malski.tomasz@gmail.com';
 
 // subject of the email
-$subject = 'Nowa wiadomość z formularza';
+$subject = 'New message from contact form';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('name' => 'Imię', 'surname' => 'Nazwisko', 'phone' => 'Nr telefonu', 'email' => 'Email', 'message' => 'Wiadomość'); 
+$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Wiadomość została wysłana. Skontaktujemy się z Tobą niezwłocznie !';
+$okMessage = 'Wiadomość została wysłana. Dziękujemy, skontaktujemy się z Tobą niezwłocznie !';
 
 // If something goes wrong, we will display this message.
-$errorMessage = 'Wystąpił problem podczas wysyłania formularza. Spróbuj ponownie !';
+$errorMessage = ' Wystąpił błąd podczas przesyłania formularza.Proszę, spróbuj ponownie';
 
 /*
  *  LET'S DO THE SENDING
@@ -31,15 +31,23 @@ error_reporting(E_ALL & ~E_NOTICE);
 
 try
 {
-
+    $department = $_POST["department"];
     if(count($_POST) == 0) throw new \Exception('Form is empty');
             
-    $emailText = "You have a new message from your contact form\n=============================\n";
+    $emailText = "Masz nową wiadomość przesłaną przez formularz\n=============================\n";
 
     foreach ($_POST as $key => $value) {
         // If the field exists in the $fields array, include it in the email 
         if (isset($fields[$key])) {
             $emailText .= "$fields[$key]: $value\n";
+        }
+    }
+    
+    if (isset($department)) {
+        if ($department == "1") {
+            $sendTo = "mtomez@poczta.fm";
+        } elseif ($department == "2") {
+            $sendTo = "malski.tomasz@gmail.com";
         }
     }
 
