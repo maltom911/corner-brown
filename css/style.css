@@ -516,6 +516,8 @@ h1 {
 }
 
 #product-item-12 {
+    background-image: url(../img/products/promocja.jpg);
+    background-size: contain;
 }
 
 
