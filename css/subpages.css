@@ -516,8 +516,117 @@ h6 {
 }
 /*Balony Style End*/
 
+/*Promocje Style*/
+.no-padding {
+    padding: 0;
+}
 
+.product-cont {
+    height: 300px;
+    background-color: #fff;
+}
+
+.product {
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.promotion-text {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row-promotion-style {
+    border: 2px solid #0ed8d6;
+    margin-top: 40px;
+}
+
+
+.p-one {
+    background-image: url(../img/promocje/1.jpg);
+}
+
+.p-two {
+    background-image: url(../img/promocje/2.jpg);
+}
+
+.p-three {
+    background-image: url(../img/promocje/3.jpg);
+}
+
+.p-four {
+    background-image: url(../img/promocje/4.jpg);
+}
+
+.p-five {
+    background-image: url(../img/promocje/5.jpg);
+}
+
+.p-six {
+    background-image: url(../img/promocje/6.jpg);
+}
+
+.p-seven {
+    background-image: url(../img/promocje/7.jpg);
+}
+
+.p-eight {
+    background-image: url(../img/promocje/8.jpg)
+}
+
+.p-nine {
+    background-image: url(../img/promocje/9.jpg)
+}
+
+.p-ten {
+    background-image: url(../img/promocje/10.jpg)
+}
+
+.p-eleven {
+    background-image: url(../img/promocje/11.jpg)
+}
+
+.p-twelve {
+    background-image: url(../img/promocje/12.jpg)
+}
+
+.p-thirteen {
+    background-image: url(../img/promocje/13.jpg)
+}
+
+.p-fourteen {
+    background-image: url(../img/promocje/14.png)
+}
+
+.p-fifteen {
+    background-image: url(../img/promocje/15.jpg)
+}
+
+.p-sixteen {
+    background-image: url(../img/promocje/16.jpg)
+}
+
+.p-seventeen {
+    background-image: url(../img/promocje/17.jpg)
+}
+
+.p-eighteen {
+    background-image: url(../img/promocje/18.jpg)
+}
+
+.p-nineteen {
+    background-image: url(../img/promocje/19.jpg)
+}
+
+.p-twenty {
+    background-image: url(../img/promocje/20.jpg)
+}
+/*Promocje Style End*/
 /*Show hide*/
+
 #show-hide {
     display: none;
 }
