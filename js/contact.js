@@ -36,6 +36,7 @@ $(function () {
                         $('#contact-form').find('.messages').html(alertBox);
                         // empty the form
                         $('#contact-form')[0].reset();
+                        grecaptcha.reset();
                     }
                 }
             });

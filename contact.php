@@ -1,17 +1,17 @@
 <?php
+// require ReCaptcha class
+require('recaptcha-master/src/autoload.php');
 /*
  *  CONFIGURE EVERYTHING HERE
  */
 
 // an email address that will be in the From field of the email.
-$from = 'mariusz.szatko@corner.com.pl';
-
+$from = 'malski.tomasz@gmail.com';
 // an email address that will receive the email with the output of the form
-$sendTo = 'mariusz.szatko@corner.com.pl';
+$sendTo = 'malski.tomasz@gmail.com';
 
-// subject of the email
+// subject of the emailS
 $subject = 'New message from contact form';
-
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message'); 
@@ -22,15 +22,39 @@ $okMessage = 'Wiadomość została wysłana. Dziękujemy, skontaktujemy się z T
 // If something goes wrong, we will display this message.
 $errorMessage = ' Wystąpił błąd podczas przesyłania formularza.Proszę, spróbuj ponownie';
 
+$recaptchaSecret = '6LeCgEcUAAAAAOXhLIWy64qfpuX8Y3lQAK5nAppb';
 /*
  *  LET'S DO THE SENDING
  */
 
 // if you are not debugging and don't need error reporting, turn this off by error_reporting(0);
-error_reporting(E_ALL & ~E_NOTICE);
+/*error_reporting(E_ALL & ~E_NOTICE);*/
 
 try
 {
+    if (!empty($_POST)) {
+
+        // validate the ReCaptcha, if something is wrong, we throw an Exception, 
+        // i.e. code stops executing and goes to catch() block
+        
+        if (!isset($_POST['g-recaptcha-response'])) {
+            throw new \Exception('ReCaptcha is not set.');
+        }
+
+        // do not forget to enter your secret key in the config above 
+        // from https://www.google.com/recaptcha/admin
+        
+        $recaptcha = new \ReCaptcha\ReCaptcha($recaptchaSecret, new \ReCaptcha\RequestMethod\CurlPost());
+        
+        // we validate the ReCaptcha field together with the user's IP address
+        
+        $response = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
+
+
+        if (!$response->isSuccess()) {
+            throw new \Exception('ReCaptcha was not validated.');
+        }
+    
     $department = $_POST["department"];
     if(count($_POST) == 0) throw new \Exception('Form is empty');
             
@@ -45,9 +69,9 @@ try
     
     if (isset($department)) {
         if ($department == "1") {
-            $sendTo = "mariusz.szatko@corner.com.pl";
+            $sendTo = "malski.tomasz@gmail.com";
         } elseif ($department == "2") {
-            $sendTo = "katarzyna.malik@corner.com.pl";
+            $sendTo = "malski.tomasz@gmail.com";
         }
     }
 
@@ -62,6 +86,7 @@ try
     mail($sendTo, $subject, $emailText, implode("\n", $headers));
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
+    }
 }
 catch (\Exception $e)
 {
